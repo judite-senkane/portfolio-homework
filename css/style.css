@@ -11,7 +11,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -32,7 +31,6 @@ p {
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 .introduction {
   margin-top: 100px;
@@ -98,4 +96,28 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+@media (max-width: 576px) {
+  body {
+    margin: 0 0 40px 0;
+  }
+  .launch-links {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+  h1 {
+    font-size: 68px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  h3 {
+    margin: 20px;
+  }
 }
